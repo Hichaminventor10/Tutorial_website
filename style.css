@@ -145,3 +145,69 @@ ul li a:hover{
     color: #ff7200;
     font-size: 60px;
 }
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top , rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e19f0f;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #ffffff;
+    font-family: arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px; 
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000000;
+}
+ 
